@@ -1,0 +1,47 @@
+\documentclass[14pt,a4paper]{extreport}
+\usepackage{cmap}       % Поддержка поиска русских слов в PDF (pdflatex)
+\usepackage[T2C]{fontenc}
+\usepackage[utf8]{inputenc}
+%%\usepackage[cp1251]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{a4wide}
+\usepackage{graphicx}
+\usepackage[colorlinks]{hyperref}
+\usepackage{longtable,booktabs}
+\usepackage{hyperref}
+\usepackage{nomencl}
+\newcommand*{\nom}[2]{#1\nomenclature{#1}{#2}}
+\sloppy
+\usepackage[a4paper,left=20mm,right=15mm,top=20mm,bottom=20mm]{geometry}
+%\newcommand{\bi}[2]{$\underset{\text{#2}}{\uline{\text{#1}}}$}
+
+%\newcommand{\datemask}{\begin{flushright}\underline{''\hspace{0.8cm}''\hspace{3cm}}2018г%.\end{flushright}}
+%\newcommand{\namemask}[3]{\begin{flushright}\textbf{\textit{#1:}}\underline{\hspace{3cm}%(#2)}\end{flushright}}
+
+
+%\parindent=1cm
+% ----------------------------------------------------------------
+\begin{document}
+\input{titlepage}
+\input{title_ternovih}
+%\maketitle
+\tableofcontents
+\makenomenclature
+\printnomenclature[5em]
+
+\nomenclature{ПТУ}{паротурбинная установка}
+\nomenclature{ЯЭУ}{ядерная энергетическая установка}
+\nomenclature{РУ}{реакторная установка}
+\nomenclature{АППУ}{атомная перепроизводящая установка}
+\nomenclature{АЗ}{активная зона}
+\nomenclature{НФР}{нейтронно-физический расчет}
+
+\include{intro}
+\include{tg}
+\include{nf}
+\include{safe}
+
+
+\bibliographystyle{plain}
+\bibliography{tolik}
+\end{document}
