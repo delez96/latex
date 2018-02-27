@@ -6,12 +6,17 @@
 \usepackage[english,russian]{babel}
 \usepackage{a4wide}
 \usepackage{graphicx}
-\usepackage[colorlinks]{hyperref}
+\usepackage[colorlinks=true,linkcolor=black]{hyperref}
 \usepackage{longtable,booktabs}
 \usepackage{hyperref}
 \usepackage{nomencl}
+\usepackage{tabularx}
+\usepackage{array}
 \newcommand*{\nom}[2]{#1\nomenclature{#1}{#2}}
-\sloppy
+%\sloppy
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \usepackage[a4paper,left=20mm,right=15mm,top=20mm,bottom=20mm]{geometry}
 %\newcommand{\bi}[2]{$\underset{\text{#2}}{\uline{\text{#1}}}$}
 
@@ -22,26 +27,24 @@
 %\parindent=1cm
 % ----------------------------------------------------------------
 \begin{document}
-\input{titlepage}
+\begin{titlepage}
+
+%\input{titlepage}
 \input{title_ternovih}
 %\maketitle
+\end{titlepage}
 \tableofcontents
 \makenomenclature
 \printnomenclature[5em]
 
-\nomenclature{ПТУ}{паротурбинная установка}
-\nomenclature{ЯЭУ}{ядерная энергетическая установка}
-\nomenclature{РУ}{реакторная установка}
-\nomenclature{АППУ}{атомная перепроизводящая установка}
-\nomenclature{АЗ}{активная зона}
-\nomenclature{НФР}{нейтронно-физический расчет}
 
-\include{intro}
-\include{tg}
-\include{nf}
+
+%\include{intro}
+%\include{tg}
+%\include{nf}
 \include{safe}
 
 
-\bibliographystyle{plain}
+\bibliographystyle{unsrt}
 \bibliography{tolik}
 \end{document}

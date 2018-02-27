@@ -2,13 +2,12 @@
 \section{Определение термического КПД паротурбинного цикла}
 
 Расчет термического КПД реактора КЛТ-40С проводилось для паротурбинной
-установки ТК-35/38-3,4. Основные параметра данной ПТУ приведены в
-табл.1.3. Тепловая схема АППУ для данного реактора приведена на рис.2.1.
+установки ТК-35/38-3,4. Основные параметра данной \nom{ПТУ}{паротурбинная установка} приведены в табл.1.3. Тепловая схема АППУ для данного реактора приведена на рис.2.1.
 
 \begin{figure}[!h]
 \center
 \includegraphics[width=6.49583in,height=3.95764in]{media/image4.png}
-\caption{Расчетная тепловая схема АППУ с реактором КЛТ-40С: 1 -
+\caption{Расчетная тепловая схема \nom{АППУ}{атомная паропроизводящая установка} с реактором КЛТ-40С: 1 -
 главный циркуляционный насос 1-го контура, 2 -- активная зона ядерного
 реактора, 3 -- парогенератор, 4 - ЦВД турбины, 5 -- электрогенератор, 6
 -- конденсатор, 7 -конденсатный насос, 8 - диаэратор, 9 -- питательный
@@ -20,7 +19,7 @@
 
 \begin{figure}[!h]
 \center
-\includegraphics[width=4.56942in,height=3.48958in]{media/image5.png}
+\includegraphics[width=0.9\textwidth]{media/image5.png}
 \caption{T-S диаграмма : m -- точка регулируемого регенеративного отбора,
 a-h -- участок регенеративного отбора, h-b -- экономайзерный участок,
 b-c -- испарение, c-d -- пароперегрев, d-k -турбина, k-a - конденсация}
@@ -52,7 +51,7 @@ b-c -- испарение, c-d -- пароперегрев, d-k -турбина,
 
 \[\eta_{3} = 0,4149\]
 
-КПД РУ может быть рассчитан по формуле:
+КПД \nom{РУ}{реакторная установка} может быть рассчитан по формуле:
 
 \[\eta_{Brutto} = \ \eta_{IT} \cdot \eta_{M} \cdot \eta_{EG} \cdot \eta_{oi} \cdot \eta_{3} = 0.2723\textrm{ ,} \]
 
@@ -105,7 +104,7 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 \begin{figure}[!h]
 \center
-\includegraphics[width=4.56942in,height=3.48958in]{media/image7.png}
+\includegraphics[width=16cm]{media/image7.png}
 \caption{TQ-диаграмма}
 \end{figure}
 
@@ -114,7 +113,7 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 \begin{figure}[!h]
 \center
-\includegraphics[width=4.56942in,height=3.48958in]{media/image8.png}
+\includegraphics[width=14cm]{media/image8.png}
 \caption{Компоновка ТВС в активной зоне \cite{deev}}
 \end{figure}
 
@@ -130,7 +129,7 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 \endhead
 Тип и форма ТВС & Чехловая с вытеснителем \tabularnewline
 Форма вытеснителя & Шестигранная\tabularnewline
-Диаметр твэла d\textsubscript{твэл}, мм & 6.8\tabularnewline
+Диаметр твэла d\textsubscript{\nom{твэл}{тепловыделяющий элемент}}, мм & 6.8\tabularnewline
 Эквивалентный диаметр компенсатора распухания d\textsubscript{комп}, мм
 & 2.52\tabularnewline
 Шаг решетки твэлов s,мм & 9.6\tabularnewline
@@ -200,19 +199,17 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 Средняя тепловая мощность ТВС:
 
-\[Q_{tvs} = \ \frac{K_{Q}Q_{t}}{N_{tvs}}\] = 1.04 МВт , где
-
-\emph{K\textsubscript{Q }}= 0.98 -- коэффициент, учитывающий долю тепла,
+\[Q_{tvs} = \ \frac{K_{Q}Q_{t}}{N_{tvs}} = 1.04 \textrm{ МВт,} \] 
+где \emph{K\textsubscript{Q }}= 0.98 -- коэффициент, учитывающий долю тепла,
 выделяющегося в твэлах.
 
 Средний линейный тепловой поток от твэлов:
 
-\[q_{lsr} = \frac{Q_{TVS}}{n_{tvel}H_{a.z}} =\] 11.6 \[\frac{kVt}{m}\]
+\[q_{lsr} = \frac{Q_{TVS}}{n_{tvel}H_{az}} = 11.6 \frac{\textrm{ кВт}}{\textrm{м}}\]
 
 Средняя плотность теплового потока на поверхности твэлов:
 
-\[q_{sr} = \frac{Q_{TVS}}{F_{to}} = \frac{q_{lsr}}{\pi d_{tvel}} =\]
-543.25 \[\frac{kVt}{m^{2}}\]
+\[q_{sr} = \frac{Q_{TVS}}{F_{to}} = \frac{q_{lsr}}{\pi d_{tvel}} = 543.25 \frac{\textrm{ кВт}}{\textrm{м}^2}\]
 
 \section{Расчет распределения температур по высоте для ТВС с
 максимальным энерговыделением}
@@ -222,10 +219,9 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 В первом приближении коэффициенты неравномерности возьмем следующие:
 
-\[k_{r} = 1.42\], \[k_{z} = 1.36\]
+\[k_{r} = 1.42\] \[k_{z} = 1.36\]
 
-Соответственно \emph{k\textsubscript{v}} =
-\[k_{r} \cdot k_{z} = 1.9312\]
+Соответственно \[\emph{k\textsubscript{v}} =k_{r} \cdot k_{z} = 1.9312\]
 
 Исходя из данных коэффициентов неравномерности найдем высоту и радиус
 активной зоны с учетом отражателя:
@@ -233,11 +229,11 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 \[k_{z} = \frac{q_{0,z}}{\frac{1}{H}\int_{-H/2}^{H/2}{q_{0,z}\cos{( \frac{\pi z}{H_{ef}} )dz}}} =\frac{H}{H_{ef}}\frac{\pi}{2}\frac{1}{\sin( \frac{\pi H}{2H_{ef}})} = k_{z}\sin( \frac{\pi H}{2H_{ef}}) = \frac{\pi H}{2H_{ef}}\]
 
 
-\[H_{ef} = 1.55\ m\]
+\[H_{ef} = 1.55\ \textrm{м}\]
 
 \[k_{r} = \frac{q_{0,z}}{\frac{1}{\pi R^{2}}\int_{0}^{R}{q_{0,r}{\left( \xi_{0}\frac{r}{R_{ef}} \right)dr}}} = \frac{R}{R_{ef}}\frac{\xi_{0}}{2\left( \xi_{0}\frac{R}{R_{ef}} \right)} = > 2k_{r}\left( \xi_{0}\frac{R}{R_{ef}} \right) = \xi_{0}\frac{R}{R_{ef}}\]
 
-\[R_{ef} = 0.9\ m\]
+\[R_{ef} = 0.9\ \textrm{м}\]
 
 Распределения плотности теплового потока выглядит следующим образом:
 
@@ -245,12 +241,12 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 \[q_{l}\left( z \right) = q_{lmax}\cos \pi\frac{z}{H_{eff}} \ ,\]
 
-где \[q_{\max} = \ \emph{k\textsubscript{v} q\textsubscript{ср} =}1.049 \frac{\textrm{МВт}}{\textrm{м}^{2}}\],
+где \[q_{\max} = \ \emph{k\textsubscript{v} q\textsubscript{ср} = }1.049 \frac{\textrm{ МВт}}{\textrm{м}^{2}}\],
 \[q_{lmax} = k_{v}q_{lsr} = 11.61\ \frac{\textrm{КВт}}{\textrm{м}} , \emph{z} \in-\textrm{[}\frac{H_{az}}{2};\ \frac{{\ H}_{az}}{2}\textrm{]} \]
 
 \begin{figure}[!h]
 \center
-\includegraphics[width=5.11811in,height=3.80659in]{media/image9.png}
+\includegraphics[height=10cm]{media/image9.png}
 \caption{График распределения плотности теплового потока по высоте
 твэла для ТВСМ}
 \end{figure}
@@ -260,11 +256,11 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 Распределение температур теплоносителя по высоте описывается формулой
 (2.20):
 
-\[t_{v} = t_{vkh.r} + \frac{k_{G}P_{t}q_{\max}}{k_{Q}G_{tn}S_{p}}\int_{-_{\frac{H_{az}}{2}}}^{z}{cos\left( \pi\frac{z}{H_{eff}} \right)dz}\]
+\[t_{v} = t_{v} + \frac{k_{G}P_{t}q_{\max}}{k_{Q}G_{tn}S_{p}}\int_{-_{\frac{H_{az}}{2}}}^{z}{cos\left( \pi\frac{z}{H_{eff}} \right)dz}\]
 
 Распределение температуры внешней оболочки твэла:
 
-\[t_{ob.n}\left( z \right) = t_{zh}\left( z \right) + q\left( z \right)R_{\alpha}\],
+\[t_{ob.n}\left( z \right) = t_{zh}\left( z \right) + q\left( z \right)R_{\alpha},\]
 
 где \[R_{\alpha} = \ \frac{1}{\alpha}\] .
 
@@ -273,10 +269,9 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 \[Nu =  0,0165 + 0,02\left( 1 - \frac{0,91}{x^{2}} \right)x^{0,15} Re^{0,8}\Pr^{0,4}\]
 
-\[w = \ \frac{k_{G}G_{1}k_{r}}{\rho S_{tn}N_{tvs}} = 3.73\ \frac{m}{s}\ ,\]
+\[w = \ \frac{k_{G}G_{1}k_{r}}{\rho S_{tn}N_{tvs}} = 3.73\ \frac{\textrm{м}}{\textrm{с}}\ ,\]
 
-\[k_{G} = 0,93\] -- коэффициент протечек.
-
+\flushleft $k_{G}$ = 0,93 \textrm{ -- коэффициент протечек.}
 \[Re = \frac{wd}{\nu} = 2.52 \cdot 10^{5}\]
 
 Тогда получим коэффициент теплоотдачи:
@@ -287,7 +282,7 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 \[R_{ob} = \frac{\ln\left( \frac{d_{tvel}}{d_{tvel} - 2\delta_{ob}} \right)}{2\pi\lambda_{ob}},\]
 
-где \[\lambda_{ob} = 18\frac{Vt}{m \cdot K}\] -- теплопроводность
+где $\lambda_{ob}$ = 18$\frac{\textrm{Вт}}{\textrm{м} \cdot K}$ -- теплопроводность
 оболочки твэла
 
 \[t_{ob.vn}\left( z \right) = t_{ob.n}\left( z \right) + q_{l}\left( z \right)R_{ob}\]
@@ -298,8 +293,8 @@ G_2 =\frac{Q}{{i}_{ab} + {i}_{bc} + {i}_{cd}} = 57.92
 
 \[t_{ts.t}\left( z \right) = t_{ob.vn}\left( z \right) + q\left( z \right)R_{t.s}\ ,\]
 
-где \[\lambda_{t} = 35\frac{Vt}{m \cdot K}\] -- теплопроводность
-ThO\textsubscript{2} в силуминовой матрице в начале кампании,
+где $\lambda_{t}$ = 35$\frac{\textrm{ Вт}}{\textrm{м} \cdot K}$ -- теплопроводность
+ThO\textsubscript{2} в силуминовой матрице в начале кампании
 
 \[R_{t.s} = \frac{d_{tvel}}{4\lambda_{t} 1 - \left( \frac{d_{komp}}{d_{t.s}} \right)^{2} }\left\{ 1 - \left( \frac{d_{komp}}{d_{t.s}} \right)^{2} 1 - 2\ln\left( \frac{d_{t.s}}{d_{komp}} \right)  \right\}.\]
 
@@ -307,7 +302,7 @@ ThO\textsubscript{2} в силуминовой матрице в начале к
 
 \begin{figure}[!h]
 \center
-\includegraphics[width=5.11811in,height=3.80712in]{media/image10.png}
+\includegraphics[width=6in]{media/image10.png}
 \caption{График распределения температур по высоте ТВСМ:
 t­\textsubscript{в} - температура теплоносителя, t­\textsubscript{об.н}
 -- температура наружной оболочки, t­\textsubscript{об.н} -- температура
@@ -316,16 +311,16 @@ t­\textsubscript{в} - температура теплоносителя, t­\t
 $^\circ C$.}
 \end{figure}
 
-Таблица 2.3 -- Максимальные температуры В ТВСМ
+Таблица 2.3 -- Максимальные температуры в \nom{ТВСМ}{сборка твэлов с максимальным энерговыделением}
 
-\begin{longtable}[]{@{}|l|l|@{}} 
+\begin{longtable}[]{@{}|C{4cm}|C{4cm}|@{}} 
 \toprule
 & t\textsubscript{max,} $^\circ C$.\tabularnewline
 \midrule
 \endhead
-t\textsubscript{об.н} & 328.79\tabularnewline
-t\textsubscript{об.вн} & 347.80\tabularnewline
-t\textsubscript{ц.т} & 395.98\tabularnewline
+t\textsubscript{об.н} & 328.79\\ \hline
+t\textsubscript{об.вн} & 347.80\\ \hline
+t\textsubscript{ц.т} & 395.98\\ 
 \bottomrule
 \end{longtable}
 
@@ -333,7 +328,7 @@ t\textsubscript{ц.т} & 395.98\tabularnewline
 
 \section{Оценка коэффициента запаса до кризиса теплообмена}
 
-Учет отличия теплового диаметра \[d_{t}\] стандартной ячейки от базового
+Учет отличия теплового диаметра $d_{t}$ стандартной ячейки от базового
 значения:
 
 \begin{equation}
@@ -372,11 +367,12 @@ K = K_{1}K_{2}K_{3}K_{4}K_{5} = 1,136
 
 
 Табличные значения КТП для
-\[P = 12,7\ Mpa\ i\ \rho w = 2367\frac{kg}{m \cdot s}\]
+\[P = 12,7\ \textrm{МПа}\ \textrm{и}\ \rho w = 2367\frac{\textrm{кг}}{\textrm{м} \cdot \textrm{с}}\]
+
 
 Таблица 2.4 -- значения КТП
 
-\begin{longtable}[]{@{}llllllllll@{}}
+\begin{longtable}[]{@{}|c|c|c|c|c|c|c|c|c|c|@{}}
 \toprule
 x & -0,4 & -0,3 & -0,2 & -0,1 & 0 & 0,1 & 0,2 & 0,3 & 0,4\tabularnewline
 \midrule
@@ -470,7 +466,7 @@ $\Sigma$$\zeta$\textsubscript{м}\tabularnewline
 
 \[N = \frac{Vp}{\eta_{n}} = 291.44\ kVt\]
 
-Где V -- объемный расход теплоносителя, \[\eta_{n}\] -- КПД
+Где V -- объемный расход теплоносителя, \[\eta_{n}\] -- \nom{КПД}{коэффициент полезного действия}
 циркуляционного насоса.
 
 Затраты мощности на прокачку теплоносителя составляет менее 0.83\% от
